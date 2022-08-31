@@ -16,7 +16,7 @@ services:
     depends_on:
     - postgresql
     environment:
-    - TZ=Asia/Kolkata
+    - TZ=Europe/Luxembourg
 
     - DB_ADAPTER=postgresql
     - DB_HOST=postgresql
